@@ -16,3 +16,4 @@ const observador = new IntersectionObserver(mostrarProyecto, {
 observador.observe(cajaProyecto[0]);
 observador.observe(cajaProyecto[1]);
 observador.observe(cajaProyecto[2]);
+observador.observe(cajaProyecto[3]);

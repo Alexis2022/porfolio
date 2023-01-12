@@ -116,8 +116,8 @@ h3{
     white-space: nowrap;
     overflow: hidden;
     margin: auto;
-    width: 19ch;
-    animation: texto 5s steps(19);
+    width: 13ch;
+    animation: texto 5s steps(13);
 }
 
 @keyframes texto{
@@ -263,6 +263,9 @@ h3{
 .flex-proyectos:nth-child(3){
     transform: translateX(60px);
 }
+.flex-proyectos:last-child{
+    transform: translateX(60px);
+}
 .flex-proyectos.visible{
     opacity: 1;
     transform: translateX(0);
@@ -368,7 +371,7 @@ h3{
     }
     h3{
         font-size: 30px;
-        padding: 30px 0;
+        padding: 20px 0;
     }
     .idiomas-header{
         width: 8%;
@@ -415,7 +418,7 @@ h3{
     }
     .habilidades{
         width: 10%;
-        margin: 10px 40px 0 0;
+        margin: 10px 40px 15px 0;
     }
     .habilidades img{
         width: 90%;
