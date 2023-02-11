@@ -209,14 +209,6 @@ h3{
 #sobre-mi{
     margin: 0 40px;
 }
-.sobre-mi-img{
-    width: 100%;
-}
-.img-sobre-mi{
-    width: 100%;
-    border-radius: 20%;
-    box-shadow: 0 0 8px #fff;
-}
 .sobre-mi-texto{
     padding-top: 10px;
     padding-bottom: 20px;
@@ -405,13 +397,10 @@ h3{
     .inicio a{
         display: none;
     }
-    .flex-sobre-mi{
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-    }
     .sobre-mi-texto{
-        margin: 0 100px 0 50px;
+        padding: 10px 40px 20px 40px;
+        display: flex;
+        justify-content: center;
     }
     .habilidad-flex{
         justify-content: center;
